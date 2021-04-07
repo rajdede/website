@@ -1,2 +1,2 @@
-FROM rajdede/httpd-container:2.4
+FROM rajdede/httpd-container
 ADD . /var/www/html
