@@ -1,2 +1,2 @@
-FROM rajdede/httpd-container:2.4
-COPY ./public-html/ /usr/local/apache2/htdocs/
+FROM bitnami/apache
+ADD . /var/www/html
