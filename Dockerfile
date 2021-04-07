@@ -1,2 +1,2 @@
-FROM rajdede/httpd-2.4
-ADD . /var/www/html
+FROM rajdede/httpd:2.4
+COPY ./public-html/ /usr/local/apache2/htdocs/
